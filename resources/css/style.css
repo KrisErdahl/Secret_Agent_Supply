@@ -10,10 +10,15 @@ body {
 }
 
 .center {
-  background-color: black;
   display: flex;
   flex-direction: column;
   width: 100%;
+  background-color: black;
+}
+
+.text_name {
+  width: 960px;
+  display: flex;
 }
 
 .name {
@@ -45,6 +50,12 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 25rem;
+  display: flex;
+  justify-content: center;
+}
+
+.text_main {
+  width: 960px;
   display: flex;
 }
 
@@ -81,13 +92,29 @@ nav {
   text-decoration: none;
 }
 
+.center .display {
+  background-color: white;
+}
+
+.display {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 960px;
+  justify-content: space-between;
+  align-content: flex-start;
+}
+
 footer {
   height: 5rem;
-  width: 960px;
   background-color: black;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.text {
+  width: 960px;
 }
 
 footer h2 {
