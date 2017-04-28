@@ -8,7 +8,7 @@ body {
   font-family: Helvetica, sans-serif;
   width: 100%;
 }
-
+/*Header with logo, name*/
 .center {
   display: flex;
   flex-direction: column;
@@ -47,7 +47,7 @@ body {
   width: auto;
   display: inline-block;
 }
-
+/* main picture with floating "new arrival" box */
 .main {
   background-image: url("../images/moto.jpeg");
   background-color: black;
@@ -83,7 +83,7 @@ body {
   font-size: 2rem;
   margin-top: .25rem;
 }
-
+/* navigation row, hidden menu for smaller screens*/
 .nav_center {
   display: flex;
   justify-content: center;
@@ -106,7 +106,7 @@ nav {
 .nav-menu {
   display: none;
 }
-
+/* display of items, store location and hours information*/
 .display_center {
   background-color: white;
   display: flex;
@@ -139,7 +139,7 @@ nav {
   padding: 2rem 0rem;
   justify-content: center;
 }
-
+/*Sunglasses image was odd size when treated in the items class. Treated on own to best effect.*/
 .item .sunglasses {
   width: 9rem;
   height: auto;
@@ -172,6 +172,8 @@ nav {
   text-align: left;
 }
 
+/* Bottom of page, copyright */
+
 footer {
   height: 5rem;
   background-color: black;
@@ -189,6 +191,7 @@ footer h2 {
   color: white;
 }
 
+/* changes for iPad portrait size, banner font changes, nav changes to "menu", and only two items are displayed */
 @media only screen and (max-width: 1024px) {
   .new {
     font-size: .90rem;
@@ -222,7 +225,7 @@ footer h2 {
     display: none;
   }
 }
-
+/* Changes for phone screen size, main pic smaller, banner flows across screen, one items displayed, footer text center aligned*/
 @media only screen and (max-width: 470px) {
   .main {
     height: 15rem;
