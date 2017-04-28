@@ -103,6 +103,10 @@ nav {
   text-decoration: none;
 }
 
+.nav-menu {
+  display: none;
+}
+
 .display_center {
   background-color: white;
   display: flex;
@@ -183,4 +187,60 @@ footer {
 footer h2 {
   text-align: left;
   color: white;
+}
+
+@media only screen and (max-width: 1024px) {
+  .new {
+    font-size: .90rem;
+    height: 6rem;
+  }
+
+  .new h1 {
+    font-size: 1.8rem;
+  }
+
+  nav {
+    justify-content: center;
+  }
+
+  .nav-link {
+    display: none;
+  }
+
+  .nav-menu {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .item {
+    width: 47%;
+  }
+
+  .sun {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .new {
+    background-color: black;
+    color: white;
+    width: 20rem;
+    height: 7.5rem;
+    margin-top: 9rem;
+    font-weight: bold;
+    padding-left: 3rem;
+    padding-top: 2rem;
+    font-size: 1rem;
+    display: block;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .new h1 {
+    font-size: 2rem;
+    margin-top: .25rem;
+  }
 }
